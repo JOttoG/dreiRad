@@ -1,4 +1,22 @@
 h1 {
-    font-size: 20px;
-    color: darkblue;
+    font-size: 41px;
+    color: rgb(1, 1, 189);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(103, 94, 158);
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+}
+
+.twoTexts {
+    column-count: 2;
 }
