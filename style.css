@@ -19,4 +19,8 @@ body {
 
 .twoTexts {
     column-count: 2;
+    column-gap: 10px;
+    column-rule-style: solid;
+    column-rule-width: 3px;
+    column-rule-color: rgb(2, 2, 105);
 }
