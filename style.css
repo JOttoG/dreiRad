@@ -3,89 +3,113 @@
         color: rgba(34, 34, 97, 0.534);
         text-align: center;
     }
-    
+
     body {
         background-color: rgb(103, 94, 158);
     }
-    
+
     .buttons {
         display: flex;
         justify-content: space-around;
         height: 4em;
     }
-    
+
     .btn1 {
         width: 100%;
         background-color: darkcyan;
         color: white;
         transition-duration: 0.8s;
     }
-    
+
     .btn1:hover {
         background-color: white;
         color: black;
     }
-    
+
     .btn2 {
         width: 100%;
         background-color: darkcyan;
         color: white;
         transition-duration: 0.8s;
     }
-    
+
     .btn2:hover {
         background-color: white;
         color: black
     }
-    
+
     .btn3 {
         width: 100%;
         background-color: darkcyan;
         color: white;
         transition-duration: 0.8s;
     }
-    
+
     .btn3:hover {
         background-color: white;
         color: black;
     }
-    
+
     .twoTexts {
-        column-count: 2;
-        column-gap: 10px;
-        column-rule-style: solid;
-        column-rule-width: 3px;
-        column-rule-color: rgb(2, 2, 105);
+        display: flex;
+        padding: 20px;
     }
-    
+
+    .textOne {
+
+        width: 60%;
+    }
+
+    .textOne p {
+        text-align: justify;
+    }
+
+    .textTwo {
+        display: block;
+        width: 40%;
+        padding-left: 3em;
+    }
+
+    .textTwo p {
+        text-align: justify;
+    }
+
     .images {
         display: flex;
     }
-    
+
     .images img {
         width: 100%;
         height: 200px
     }
-    
+
     h2 {
         text-align: center;
         font-size: 35px;
         color: rgb(24, 24, 109)
     }
-    
+
     ul {
         font-size: 30px;
     }
-    
+
     ol {
         font-size: 20px;
     }
-    
+
     .descrList .champs {
         font-size: 25px;
     }
-    
+
     .descrList .letters {
         font-size: 30px;
 
+    }
+
+    .bothLists {
+        display: flex;
+    }
+    hr{
+        height: 2px;
+        background-color: black;
     }
