@@ -49,7 +49,16 @@
         background-color: white;
         color: black;
     }
-
+    .btn4{
+        width: 100%;
+        background-color: darkcyan;
+        color: white;
+        transition-duration: 0.8s;
+    }
+    .btn4:hover{
+        background-color: white;
+        color: black;
+    }
     .twoTexts {
         display: flex;
         padding: 20px;
@@ -112,4 +121,25 @@
     hr{
         height: 2px;
         background-color: black;
+    }
+    .pexVideo{
+        max-width: 50%;
+        height: auto;
+        
+    }
+    .containerVideo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .containerYoutubeVideo{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        padding-top: 15px;
+    }
+    .containerAudioImage{
+        display: flex;
+        justify-content: center;
+
     }
